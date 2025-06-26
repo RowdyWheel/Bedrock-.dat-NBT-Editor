@@ -1,1 +1,36 @@
-
+{
+  "name": "Mine NBT Editor",
+  "short_name": "NBT Editor",
+  "description": "A NBT editor built for Bedrock Edition!",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "theme_color": "#445985",
+  "background_color": "#445985",
+  "icons": [
+    {
+      "src": "./img/app-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./img/app-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./img/app-1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "application/octet-stream": [".nbt", ".dat", ".dat_old", ".mcstructure", ".litematic", ".schem", ".schematic", ".snbt"]
+      }
+    }
+  ]
+}
