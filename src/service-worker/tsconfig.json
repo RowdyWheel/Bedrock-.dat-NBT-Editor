@@ -3,13 +3,8 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "jsx": "preserve",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
     "lib": ["DOM", "ESNext"],
     "types": ["vite/client"]
   },
-  "include": ["src"]
+  "include": ["."]
 }
