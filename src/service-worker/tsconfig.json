@@ -1,10 +1,13 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "lib": ["DOM", "ESNext"],
-    "types": ["vite/client"]
+    "lib": [
+      "ESNext",
+      "WebWorker"
+    ],
+    "types": [
+      "vite/client"
+    ]
   },
-  "include": ["."]
+  "exclude": []
 }
