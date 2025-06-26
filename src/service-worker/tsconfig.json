@@ -1,10 +1,15 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ESNext", "WebWorker"],
-    "types": [
-      "vite/client"
-    ]
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["DOM", "ESNext"],
+    "types": ["vite/client"]
   },
-  "exclude": []
+  "include": ["src"]
 }
