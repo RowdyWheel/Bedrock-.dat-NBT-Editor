@@ -1,3 +1,3 @@
-# Dovetail
+# Mine NBT Editor
 
-A cross-platform NBT editor built on the web!
+A Minecraft Bedrock.dat File NBT Editor!
